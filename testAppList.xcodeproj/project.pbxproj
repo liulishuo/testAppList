@@ -26,6 +26,43 @@
 		148229181C036F3600CF1C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1482291B1C036F3600CF1C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1482291D1C036F3600CF1C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		148229241C09499E00CF1C8D /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		148229251C09499E00CF1C8D /* LSApplicationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSApplicationProxy.h; sourceTree = "<group>"; };
+		148229261C09499E00CF1C8D /* LSApplicationWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSApplicationWorkspace.h; sourceTree = "<group>"; };
+		148229271C09499E00CF1C8D /* LSApplicationWorkspaceObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSApplicationWorkspaceObserver.h; sourceTree = "<group>"; };
+		148229281C09499E00CF1C8D /* LSApplicationWorkspaceObserverProtocol-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSApplicationWorkspaceObserverProtocol-Protocol.h"; sourceTree = "<group>"; };
+		148229291C09499E00CF1C8D /* LSApplicationWorkspaceRemoteObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSApplicationWorkspaceRemoteObserver.h; sourceTree = "<group>"; };
+		1482292A1C09499E00CF1C8D /* LSBestAppSuggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSBestAppSuggestion.h; sourceTree = "<group>"; };
+		1482292B1C09499E00CF1C8D /* LSBestAppSuggestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSBestAppSuggestionManager.h; sourceTree = "<group>"; };
+		1482292C1C09499E00CF1C8D /* LSBestAppSuggestionManagerProtocol-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSBestAppSuggestionManagerProtocol-Protocol.h"; sourceTree = "<group>"; };
+		1482292D1C09499E00CF1C8D /* LSBestAppSuggestionManagerResponseProtocol-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSBestAppSuggestionManagerResponseProtocol-Protocol.h"; sourceTree = "<group>"; };
+		1482292E1C09499E00CF1C8D /* LSBundleProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSBundleProxy.h; sourceTree = "<group>"; };
+		1482292F1C09499E00CF1C8D /* LSDocumentProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDocumentProxy.h; sourceTree = "<group>"; };
+		148229301C09499E00CF1C8D /* LSInstallProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSInstallProgressDelegate.h; sourceTree = "<group>"; };
+		148229311C09499E00CF1C8D /* LSInstallProgressList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSInstallProgressList.h; sourceTree = "<group>"; };
+		148229321C09499E00CF1C8D /* LSInstallProgressProtocol-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSInstallProgressProtocol-Protocol.h"; sourceTree = "<group>"; };
+		148229331C09499E00CF1C8D /* LSObserverTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSObserverTimer.h; sourceTree = "<group>"; };
+		148229341C09499E00CF1C8D /* LSOpenOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSOpenOperation.h; sourceTree = "<group>"; };
+		148229351C09499E00CF1C8D /* LSPlugInKitProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPlugInKitProxy.h; sourceTree = "<group>"; };
+		148229361C09499E00CF1C8D /* LSResourceProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSResourceProxy.h; sourceTree = "<group>"; };
+		148229371C09499E00CF1C8D /* LSResumableActivitiesAdministrativeProtocol-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSResumableActivitiesAdministrativeProtocol-Protocol.h"; sourceTree = "<group>"; };
+		148229381C09499E00CF1C8D /* LSResumableActivitiesControlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSResumableActivitiesControlManager.h; sourceTree = "<group>"; };
+		148229391C09499E00CF1C8D /* LSUserActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSUserActivity.h; sourceTree = "<group>"; };
+		1482293A1C09499E00CF1C8D /* LSUserActivityClientProtocol-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSUserActivityClientProtocol-Protocol.h"; sourceTree = "<group>"; };
+		1482293B1C09499E00CF1C8D /* LSUserActivityClientResponseProtocol-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LSUserActivityClientResponseProtocol-Protocol.h"; sourceTree = "<group>"; };
+		1482293C1C09499E00CF1C8D /* LSUserActivityDebuggingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSUserActivityDebuggingManager.h; sourceTree = "<group>"; };
+		1482293D1C09499E00CF1C8D /* LSUserActivityInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSUserActivityInfo.h; sourceTree = "<group>"; };
+		1482293E1C09499E00CF1C8D /* LSUserActivityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSUserActivityManager.h; sourceTree = "<group>"; };
+		1482293F1C09499E00CF1C8D /* LSVPNPluginProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSVPNPluginProxy.h; sourceTree = "<group>"; };
+		148229401C09499E00CF1C8D /* NSCoding-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCoding-Protocol.h"; sourceTree = "<group>"; };
+		148229411C09499E00CF1C8D /* NSCopying-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCopying-Protocol.h"; sourceTree = "<group>"; };
+		148229421C09499E00CF1C8D /* NSObject-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-Protocol.h"; sourceTree = "<group>"; };
+		148229431C09499E00CF1C8D /* NSProgress-LSInstallProgressAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProgress-LSInstallProgressAdditions.h"; sourceTree = "<group>"; };
+		148229441C09499E00CF1C8D /* NSSecureCoding-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSecureCoding-Protocol.h"; sourceTree = "<group>"; };
+		148229451C09499E00CF1C8D /* NSString-LSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-LSAdditions.h"; sourceTree = "<group>"; };
+		148229461C09499E00CF1C8D /* NSURL-LSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL-LSAdditions.h"; sourceTree = "<group>"; };
+		148229471C09499E00CF1C8D /* NSXPCListenerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSXPCListenerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		148229481C09499E00CF1C8D /* SFCompanionAdvertiserDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SFCompanionAdvertiserDelegate-Protocol.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,7 @@
 		1482290B1C036F3600CF1C8D /* testAppList */ = {
 			isa = PBXGroup;
 			children = (
+				148229231C09499E00CF1C8D /* MobileCoreServices_framework_header */,
 				1482290F1C036F3600CF1C8D /* AppDelegate.h */,
 				148229101C036F3600CF1C8D /* AppDelegate.m */,
 				148229121C036F3600CF1C8D /* ViewController.h */,
@@ -77,6 +115,50 @@
 				1482290D1C036F3600CF1C8D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		148229231C09499E00CF1C8D /* MobileCoreServices_framework_header */ = {
+			isa = PBXGroup;
+			children = (
+				148229241C09499E00CF1C8D /* CDStructures.h */,
+				148229251C09499E00CF1C8D /* LSApplicationProxy.h */,
+				148229261C09499E00CF1C8D /* LSApplicationWorkspace.h */,
+				148229271C09499E00CF1C8D /* LSApplicationWorkspaceObserver.h */,
+				148229281C09499E00CF1C8D /* LSApplicationWorkspaceObserverProtocol-Protocol.h */,
+				148229291C09499E00CF1C8D /* LSApplicationWorkspaceRemoteObserver.h */,
+				1482292A1C09499E00CF1C8D /* LSBestAppSuggestion.h */,
+				1482292B1C09499E00CF1C8D /* LSBestAppSuggestionManager.h */,
+				1482292C1C09499E00CF1C8D /* LSBestAppSuggestionManagerProtocol-Protocol.h */,
+				1482292D1C09499E00CF1C8D /* LSBestAppSuggestionManagerResponseProtocol-Protocol.h */,
+				1482292E1C09499E00CF1C8D /* LSBundleProxy.h */,
+				1482292F1C09499E00CF1C8D /* LSDocumentProxy.h */,
+				148229301C09499E00CF1C8D /* LSInstallProgressDelegate.h */,
+				148229311C09499E00CF1C8D /* LSInstallProgressList.h */,
+				148229321C09499E00CF1C8D /* LSInstallProgressProtocol-Protocol.h */,
+				148229331C09499E00CF1C8D /* LSObserverTimer.h */,
+				148229341C09499E00CF1C8D /* LSOpenOperation.h */,
+				148229351C09499E00CF1C8D /* LSPlugInKitProxy.h */,
+				148229361C09499E00CF1C8D /* LSResourceProxy.h */,
+				148229371C09499E00CF1C8D /* LSResumableActivitiesAdministrativeProtocol-Protocol.h */,
+				148229381C09499E00CF1C8D /* LSResumableActivitiesControlManager.h */,
+				148229391C09499E00CF1C8D /* LSUserActivity.h */,
+				1482293A1C09499E00CF1C8D /* LSUserActivityClientProtocol-Protocol.h */,
+				1482293B1C09499E00CF1C8D /* LSUserActivityClientResponseProtocol-Protocol.h */,
+				1482293C1C09499E00CF1C8D /* LSUserActivityDebuggingManager.h */,
+				1482293D1C09499E00CF1C8D /* LSUserActivityInfo.h */,
+				1482293E1C09499E00CF1C8D /* LSUserActivityManager.h */,
+				1482293F1C09499E00CF1C8D /* LSVPNPluginProxy.h */,
+				148229401C09499E00CF1C8D /* NSCoding-Protocol.h */,
+				148229411C09499E00CF1C8D /* NSCopying-Protocol.h */,
+				148229421C09499E00CF1C8D /* NSObject-Protocol.h */,
+				148229431C09499E00CF1C8D /* NSProgress-LSInstallProgressAdditions.h */,
+				148229441C09499E00CF1C8D /* NSSecureCoding-Protocol.h */,
+				148229451C09499E00CF1C8D /* NSString-LSAdditions.h */,
+				148229461C09499E00CF1C8D /* NSURL-LSAdditions.h */,
+				148229471C09499E00CF1C8D /* NSXPCListenerDelegate-Protocol.h */,
+				148229481C09499E00CF1C8D /* SFCompanionAdvertiserDelegate-Protocol.h */,
+			);
+			path = MobileCoreServices_framework_header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
