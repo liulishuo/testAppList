@@ -1,5 +1,5 @@
 # testAppList
 
-使用私有API  查看app列表
+List the apps installed on an iOS device using private APIs.
 
-文章地址：http://www.jianshu.com/p/6167b9ce7af8
+Article: http://www.jianshu.com/p/6167b9ce7af8
